@@ -52,7 +52,7 @@ class JsonController extends Controller
                 'booking_number' => $booking['booking']['booking_number'],
                 'book_date' => $booking['booking']['book_date'],
                 'ahass_code' => $workshopCode,
-                'ahass_name' => $workshopDetails['name'],
+                'ahass_name' => $booking['booking']['workshop']['name'],
                 'ahass_address' => $workshopDetails['address'],
                 'ahass_contact' => $workshopDetails['phone_number'],
                 'ahass_distance' => $workshopDetails['distance'],
